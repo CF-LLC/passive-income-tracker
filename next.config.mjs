@@ -13,10 +13,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Disable server components since GitHub Pages is static
-  experimental: {
-    appDir: true,
-  },
   // Ensure trailing slashes for GitHub Pages compatibility
   trailingSlash: true,
 };
