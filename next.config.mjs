@@ -2,8 +2,8 @@
 const nextConfig = {
   output: 'export',
   // GitHub Pages uses a subdirectory based on your repo name
-  // If your repo is named "passive-income-tracker", uncomment and update this:
-  // basePath: '/passive-income-tracker',
+  // Uncomment and update this with your actual repository name
+  basePath: '/passive-income-tracker',
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -15,6 +15,8 @@ const nextConfig = {
   },
   // Ensure trailing slashes for GitHub Pages compatibility
   trailingSlash: true,
+  // Add assetPrefix for GitHub Pages
+  assetPrefix: '/passive-income-tracker',
 };
 
 export default nextConfig;
